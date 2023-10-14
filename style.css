@@ -1,0 +1,75 @@
+body{
+    margin:0;
+    background-image: url("zoom.png");
+    background-size: 100%;
+}
+h1{
+    color:bisque;
+    text-align: center;
+    
+}
+div{
+    margin:16px;
+    padding:8px;
+    
+}
+#mainheader{
+    background-color:#661400;
+    box-shadow: 6px 6px 6px black;
+    border-radius: 2rem;
+    width:50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+#container input {
+    border-radius: 1.5rem;
+    border: 1px solid brown;
+    height: 50px;
+    width: 60%;
+    margin-right: 50px;
+    background-color: #ffb366;
+    
+    
+}
+#container input:hover{
+    border:2.5px solid orange ;
+}
+#container button{
+    border-radius: 0.6rem;
+    border:none;
+    background-color: rgb(220, 89, 46);
+    height: 30px;
+    width:20%;
+    color: rgb(55, 27, 11);
+    border: 2px solid brown;
+   
+}
+
+#container button:hover{
+    border: 2.5px solid rgb(221, 174, 7);
+
+}
+#container{
+    margin: 24px;
+    padding:24px;
+    text-align: center;
+    background-color: #cc3300;
+    border-radius: 2rem;
+    width:60%;
+    margin:auto;
+    margin-top: 20px;
+    border: 2px solid #330d00;
+}
+#row1{
+    background-color:#330d00;
+    border-radius: 2rem;
+    border: 5px solid  #333300;
+    
+    
+}
+#row1 ::placeholder{
+    text-align: center;
+    color:#660000;
+}
